@@ -1,0 +1,89 @@
+.mainFooterDiv{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(64, 0, 0);
+    margin-top: 15vh;
+}
+.footerDiv{
+    display: flex;
+}
+.footerDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 30vw;
+    font-size: 25px;
+    color: white;
+    margin: 10vh 0vw 0vh 8vw;
+    gap: 20px;
+}
+.footerDiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 17vw;
+    font-size: 25px;
+    color: white;
+    gap: 20px;
+    margin: 10vh 0vw 0vh 4vw;
+}
+.footerDiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 17vw;
+    font-size: 25px;
+    color: white;
+    margin: 10vh 0vw 0vh 0vw;
+    gap: 20px;
+}
+.footerDiv4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: 17vw;
+    font-size: 25px;
+    color: white;
+    margin: 10vh 0vw 0vh 0vw;
+    gap: 20px;
+}
+.opt{
+    font-size: 35px;
+    font-family: 'calibri';
+    margin: 20px 0px;
+}
+.gymHeading{
+    margin: 2vh 0vw 0vw 0vw;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    font-family: 'calibri';
+}
+.icon{
+    font-size: 40px;
+    color: rgb(174, 174, 174);
+    cursor: pointer;
+    margin: 0px 10px
+}
+.icon:hover{
+    color: white;
+}
+.lastLineDiv{
+    margin-top: 10vh;
+}
+.lastLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3vh;
+    font-size: 20px;
+}

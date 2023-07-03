@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Div1 */
+
+.div1{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 20vw;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    font-family: 'calibri';
+}
+.input{
+    display: flex;
+    height: 8vh;
+    width: 40vw;
+    margin: 20px 0px 20px 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(230, 230, 230);
+}
+.searchIcon{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 40px;
+    /* border: 1px solid black; */
+    height: 8vh;
+    width: 4vw;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* Div2 */
+
+.div2{
+    display: flex;
+    height: 60vh;
+    width: 80vw;
+    margin: 10px auto;
+}
+.div2_1{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+}
+.heading{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    margin: 20px 0px;
+}
+.img{
+    height: 100%;
+}
+.div2_2{
+    display: flex;
+    flex-direction: column;
+    width: 500vw;
+    padding: 6vh 5vw;
+}
+.lorem{
+    display: flex;
+    font-size: 20px;
+}
+.dataName{
+    display: flex;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(98, 98, 98);
+}
+.btn{
+    width: 13vw;
+    margin-top: 20px;
+    padding: 2vh 2vw;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(184, 4, 4);
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: red;
+    transform: scale(1.03);
+}
+
+/* Div3 */
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    width: 80vw;
+    margin: 50px auto;
+}
+.heading2{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    margin: 15vh 0vw 0vh 10vw;
+}
+.sub_Div3{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 23vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.div3Img{
+    display: flex;
+    height: 36vh;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.div3ParaHeading{
+    font-size: 23px;
+    font-family: 'cambria';
+    margin: 5px 5px;
+    font-weight: bold;
+}
+.div3Lorem{
+    display: flex;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+.btnDiv{
+    display: flex;
+}
+.div3Btn{
+    display: flex;
+    margin: 5vh 7vw 0vh 0.5vw;
+    padding: 1.5vh 2vw;
+    font-size: 18px;
+    background-color: rgb(208, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+.div3Btn:hover{
+    background-color: red;
+    transform: scale(1.03);
+}
+.div3Date{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0vw 0vh 0vw;
+    font-size: 19px;
+}

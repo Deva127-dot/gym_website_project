@@ -1,0 +1,292 @@
+
+/* About Us */
+
+.img{
+    height: 60vh;
+    width: 25vw;
+    margin: 130px 130px 100px 130px;
+}
+.img2{
+    height: 60vh;
+    width: 25vw;
+    margin-bottom: 100px;
+}
+.div1{
+    display: flex;
+}
+.abtTxt{
+    height: 40vh;
+    width: 45vw;
+    margin-top: 200px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'calibri';
+}
+.about{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family: 'cambria';
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 15px 20px;
+    margin: 20px 0px;
+    background-color: rgb(219, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'times new roman';
+    transition: 0.1s;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.div2Colomn1{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 50vw;
+    margin: 20px 150px;
+    margin-bottom: 10vh;
+    font-size: 20px;
+    font-family: 'calibri';
+}
+.que{
+    color: red;
+    font-size: 45px;
+    font-family: 'cambria';
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.pnts{
+    font-size: 30px;
+    font-family: 'times new roman';
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/* Explore Our Fitness Studio */
+
+.explore{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(50, 0, 0);
+}
+.explDiv1{
+    color: white;
+    height: 70vh;
+    width: 40vw;
+    margin: 120px 0px 0px 120px;
+}
+.paraHeading{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'calibri';
+}
+.paraTxt{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.startNowBtn{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: rgb(219, 0, 0);
+    margin: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.1s;
+    color: white;
+}
+.startNowBtn:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+.circle1{
+    display: flex;
+    margin: 70px 150px;
+    height: 60vh;
+    width: 30vw;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.circle2{
+    display: flex;
+    margin: 70px 0px 0px 75px;
+    height: 40vh;
+    width: 20vw;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.circle3{
+    display: flex;
+    margin: 70px 0px 0px 75px;
+    height: 20vh;
+    width: 10vw;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.img3{
+    display: flex;
+    margin-top: 3vw;
+    height: 40vh;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+    box-shadow: 8px 5px 2px red;
+}
+
+/* Training Programs */
+
+.training{
+    font-size: 50px;
+    margin: 15vh 0vw 5vh 0vw;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-family: 'cambria';
+}
+.gymImgDiv{
+    display: flex;
+    height: 50vh;
+    width: 80vw;
+    margin: 0px 10vw 20vh 10vw;
+}
+.imgHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'calibri';
+}
+.gymImg{
+    display: flex;
+    margin: 0px 14px;
+    border-radius: 10px;
+    gap: 20px;
+    height: 40vh;
+    width: 18vw;
+}
+
+/* Professional Trainers */
+
+.trainers{
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    color: red;
+    font-family: 'cambria';
+
+}
+.trainersDiv{
+    display: inline-flex;
+    height: 50vh;
+    width: 80vw;
+    margin: 0px 9vw 10vh 9vw;
+}
+.gymTrainerImg{
+    display: flex;
+    margin: 0px 14px;
+    border: 5px solid red;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    gap: 20px;
+    height: 50vh;
+    width: 18vw;
+}
+
+/* Our Special Packages */
+
+.packageHeading{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'cambria';
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.lorem{
+    margin: 0px 22vw 10vh 22vw;
+    font-size: 20px;
+}
+.packageBoxDiv{
+    display: flex;
+    height: 60vh;
+    width: 80vw;
+    margin: 0px auto;
+    margin-bottom: 10vh;
+}
+.packageBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0vh 2vw 0vh 2vw;
+    padding-left: 20px;
+    height: 60vh;
+    width: 30vw;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border: 2px solid red;
+}
+.paraHeading{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-family: 'cambria';
+    font-weight: bolder;
+}
+.symbolLine{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.symbolLineNot{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(135, 135, 135);
+}
+.symbolLineVal{
+    display: flex;
+    align-items: center;
+    color: red;
+    gap: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.packageBoxBtn{
+    padding: 10px 20px;
+    width: 15vw;
+    margin-left: 30px;
+    background-color: rgb(198, 0, 0);
+    color: white;
+    font-size: 23px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 35px;
+    transition: 0.1s;
+}
+.packageBoxBtn:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+.month{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+    font-size: 18px;
+}

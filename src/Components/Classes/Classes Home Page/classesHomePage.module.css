@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/6582869/pexels-photo-6582869.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50% -50%);
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30vh 0vw 0vh 33vw;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'cambria';
+}

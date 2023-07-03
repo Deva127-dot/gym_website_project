@@ -1,0 +1,128 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Div1 */
+
+.div1{
+    display: flex;
+    height: 70vh;
+    width: 90vw;
+    margin: 30px auto;
+}
+.img{
+    height: 50vh;
+    width: 25vw;
+    margin: 10vh 3vw;
+    border-radius: 10px;
+}
+.para1{
+    font-size: 35px;
+    margin: 10vh 0vw 2vh 0vw;
+}
+.para2{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.div1Lorem{
+    gap: 50px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.div1Btn{
+    font-size: 23px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: rgb(182, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.div1Btn:hover{
+    background-color: red;
+    transform: scale(1.05);
+}
+
+/* Div2 */
+
+.div2{
+    display: flex;
+    height: 60vh;
+    width: 90vw;
+    margin: 10px auto;
+}
+.div2Traineers{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 40vw;
+    margin: 5vh;
+
+}
+.gymTraineeImg{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 20px black;
+}
+.traineers{
+    font-size: 30px;
+    font-family: 'cambria';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Div3 */
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+    width: 90vw;
+    box-shadow: 0px 0px 10px black;
+    margin: 0px auto;
+}
+.div3Box1{
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+}
+.div3Box2{
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+}
+.div3sub_Box1{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 45vw;
+}
+.aims{
+    border-radius: 50%;
+    height: 150px;
+    display: flex;
+    margin: 10vh 17vw 0vh 18vw;
+}
+.ourHistory{
+    margin: 0px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ourHistoryLorem{
+    font-size: 20px;
+    margin: 2vh 5vw;
+    text-align: center;
+}
+.div3sub_Box2{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 45vw;
+}
