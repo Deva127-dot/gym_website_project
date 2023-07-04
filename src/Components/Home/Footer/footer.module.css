@@ -67,6 +67,9 @@
     font-weight: bold;
     font-family: 'calibri';
 }
+.link{
+    text-decoration: none;
+}
 .icon{
     font-size: 40px;
     color: rgb(174, 174, 174);

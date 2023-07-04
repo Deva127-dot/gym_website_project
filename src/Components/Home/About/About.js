@@ -57,8 +57,8 @@ function About() {
       {/* Explore Our Fitness Studio */}
       <div className={styles.explore}>
         <div className={styles.explDiv1}>
-          <p className={styles.paraHeading}>Explore Our Fitness</p>
-          <p className={styles.paraHeading}> Studio</p>
+          <p className={styles.paraHeadingExplore}>Explore Our Fitness</p>
+          <p className={styles.paraHeadingExplore}> Studio</p>
           <p className={styles.paraTxt}>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex enim
             quos vitae temporibus unde soluta, debitis distinctio et fugiat quo

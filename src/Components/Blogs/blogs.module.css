@@ -72,6 +72,12 @@
 }
 .img{
     height: 100%;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 5px;
+    transition: 0.15s;
+}
+.img:hover{
+    transform: scale(1.05);
 }
 .div2_2{
     display: flex;
@@ -131,6 +137,10 @@
     width: 23vw;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
+    transition: 0.15s;
+}
+.sub_Div3:hover{
+    transform: scale(1.05);
 }
 .div3Img{
     display: flex;
@@ -138,6 +148,7 @@
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    /* transition: 0.15s; */
 }
 .div3ParaHeading{
     font-size: 23px;

@@ -5,11 +5,23 @@
     height: 60vh;
     width: 25vw;
     margin: 130px 130px 100px 130px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.2s;
+}
+.img:hover{
+    transform: scale(1.04);
 }
 .img2{
     height: 60vh;
     width: 24vw;
     margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.2s;
+}
+.img2:hover{
+    transform: scale(1.04);
 }
 .div1{
     display: flex;
@@ -86,14 +98,17 @@
     width: 40vw;
     margin: 120px 0px 0px 120px;
 }
-.paraHeading{
+.paraHeadingExplore{
     font-size: 50px;
+    /* font-family: 'cambria'; */
     font-weight: bold;
     font-family: 'calibri';
 }
 .paraTxt{
     font-size: 20px;
     margin-top: 30px;
+    font-family: 'calibri';
+    font-weight: normal;
 }
 .startNowBtn{
     padding: 10px 20px;
@@ -140,8 +155,13 @@
     height: 40vh;
     width: 100vw;
     border-radius: 50px;
-    border: 1px solid whitesmoke;
+    border: 2px solid whitesmoke;
     box-shadow: 8px 5px 2px red;
+    /* box-shadow: 0px 0px 10px black; */
+    transition: 0.15s;
+}
+.img3:hover{
+    transform: scale(1.15);
 }
 
 /* Training Programs */
@@ -175,6 +195,11 @@
     gap: 20px;
     height: 40vh;
     width: 18vw;
+    box-shadow: 0px 0px 10px black;
+    transition: .1s;
+}
+.gymImg:hover{
+    transform: scale(1.05);
 }
 
 /* Professional Trainers */
@@ -187,7 +212,6 @@
     margin-bottom: 10vh;
     color: red;
     font-family: 'cambria';
-
 }
 .trainersDiv{
     display: inline-flex;
@@ -204,6 +228,10 @@
     gap: 20px;
     height: 50vh;
     width: 18vw;
+    transition: 0.15s;
+}
+.gymTrainerImg:hover{
+    transform: scale(1.05);
 }
 
 /* Our Special Packages */

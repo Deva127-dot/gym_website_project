@@ -16,14 +16,21 @@
     width: 25vw;
     margin: 10vh 3vw;
     border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+    transition: 0.15s;
+}
+.img:hover{
+    transform: scale(1.05);
 }
 .para1{
     font-size: 35px;
+    font-family: 'cambria';
     margin: 10vh 0vw 2vh 0vw;
     color: black;
 }
 .para2{
     font-size: 30px;
+    font-family: 'calibri';
     font-weight: bold;
     color: red;
 }
@@ -68,7 +75,12 @@
 .gymTraineeImg{
     height: 100%;
     width: 100%;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    transition: 0.15s;
+}
+.gymTraineeImg:hover{
+    transform: scale(1.05);
 }
 .traineers{
     font-size: 30px;

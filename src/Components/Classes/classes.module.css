@@ -45,6 +45,11 @@
     height: 55vh;
     width: 25vw;
     border-radius: 20px;
+    box-shadow: 0px 0px 8px black;
+    transition: 0.15s;
+}
+.img:hover{
+    transform: scale(1.05);
 }
 .info{
     display: block;

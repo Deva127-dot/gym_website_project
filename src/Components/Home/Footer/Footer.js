@@ -3,6 +3,7 @@ import styles from './footer.module.css';
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
       <div className={styles.mainFooterDiv}>
         <div className={styles.footerDiv}>
           <div className={styles.footerDiv1}>
-            <p className={styles.gymHeading}>GYM</p>
+            <Link to='/' className={styles.link} > <p className={styles.gymHeading}>GYM</p></Link>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Perspiciatis, ex.
