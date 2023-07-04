@@ -110,8 +110,7 @@ function AboutInfo() {
 
       {/* Footer */}
 
-      <Footer />
-
+      {/* <Footer /> */}
     </div>
   );
 }

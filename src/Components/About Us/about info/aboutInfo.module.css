@@ -20,6 +20,7 @@
 .para1{
     font-size: 35px;
     margin: 10vh 0vw 2vh 0vw;
+    color: black;
 }
 .para2{
     font-size: 30px;
@@ -30,6 +31,7 @@
     gap: 50px;
     font-size: 23px;
     margin-top: 10px;
+    color: black;
 }
 .div1Btn{
     font-size: 23px;
@@ -76,6 +78,7 @@
     align-items: center;
     margin-top: 10px;
     font-weight: bold;
+    color: black;
 }
 
 /* Div3 */
@@ -114,11 +117,13 @@
     margin: 0px auto;
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 .ourHistoryLorem{
     font-size: 20px;
     margin: 2vh 5vw;
     text-align: center;
+    color: black;
 }
 .div3sub_Box2{
     display: flex;

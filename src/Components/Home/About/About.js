@@ -241,7 +241,7 @@ function About() {
       </div>
       {/* Footer */}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

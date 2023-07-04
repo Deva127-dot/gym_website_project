@@ -18,6 +18,7 @@
     font-weight: bold;
     color: red;
     margin: 5vh 0vw;
+    /* color: black; */
 }
 .imgDiv{
     display: flex;
@@ -49,6 +50,7 @@
     display: block;
     align-items: center;
     font-size: 18px;
+    color: black;
 }
 .txtIcon{
     display: inline-flex;
